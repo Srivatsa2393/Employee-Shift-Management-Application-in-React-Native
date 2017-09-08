@@ -15,6 +15,7 @@ export default (state = INITIAL_STATE, action) => {
 
         case LOGIN_USER_SUCCESS:
             return { ...state, user:action.payload };
+    
 
         default:
             return state;
