@@ -15,7 +15,8 @@ const RouterComponent = () => {
             key="employeeList"
             component={EmployeeList}
             title="Employees"
-            initial
+            rightTitle="Add"
+            onRight={() => console.log('right!!')}
           />
         </Scene>
     </Router>

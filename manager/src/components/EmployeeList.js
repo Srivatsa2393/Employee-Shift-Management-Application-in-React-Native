@@ -5,11 +5,11 @@ class EmployeeList extends Component {
   render() {
     return (
       <View>
-        <Text>Emplyee List</Text>
-        <Text>Emplyee List</Text>
-        <Text>Emplyee List</Text>
-        <Text>Emplyee List</Text>
-        <Text>Emplyee List</Text>
+        <Text>Employee List</Text>
+        <Text>Employee List</Text>
+        <Text>Employee List</Text>
+        <Text>Employee List</Text>
+        <Text>Employee List</Text>
       </View>
     );
   }
